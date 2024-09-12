@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+}
+
+#advice-container {
+  background-color: hsl(217, 19%, 24%);
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10rem;
+  width: 90%;
+  height: 48vh;
+  margin-left: 1.3rem;
+  border-radius: 15px;
+  position: relative;
+}
+
+.advice-withcode {
+  padding-top: 2rem;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 3.5px;
+}
+
+#advice-text {
+  margin-top: 2rem;
+  font-size: x-large;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.line {
+  flex-grow: 0.4;
+  height: 1px;
+  border: 1px solid hsl(217, 19%, 38%);
+}
+
+.break {
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+#get-advicebtn {
+  background-color: hsl(150, 100%, 66%);
+  width: 65px;
+  padding: 20px;
+  border-radius: 60%;
+  margin-left: 10rem;
+  position: absolute;
+  top: 28rem;
+  left: 0.2rem;
+  cursor: pointer;
+  border: none;
+}
+
+#get-advicebtn:hover {
+    box-shadow: 0 0 20px 15px rgba(0, 255, 153, 0.7), 0 0 40px 30px rgba(0, 255, 153, 0.4);
+}
+
+@media (min-width: 600px) {
+  body {
+    padding: 2rem 25rem;
+  }
+  #get-advicebtn {
+    left: 34.5rem;
+    top: 31rem;
+  }
+}
